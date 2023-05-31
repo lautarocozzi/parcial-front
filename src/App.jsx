@@ -37,7 +37,7 @@ function App() {
         {error && "Por favor chequea que la información sea correcta" }
         </div>
       </form>
-      {show ? <Card  disabled={show} nombre={nombre} pelicula={pelicula}/> : null}      
+      {show ? <Card nombre={nombre} pelicula={pelicula}/> : null}      
     </div>
   )
 }
