@@ -5,3 +5,28 @@
   text-align: center;
 }
 
+.form{
+  background-color: gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.form input{
+  width: 70%;
+  margin: 15px;
+  height: 30px;
+
+}
+
+.form button{
+  margin: 10px;
+  background-color: blue;
+}
+
+.error{
+  color:red;
+  font-weight: bold;
+}
